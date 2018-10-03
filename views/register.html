@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta content="text/html, charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta charset="utf-8" />
+    <title>用户注册</title>
+    <link href="./public/css/common.css" type="text/css" rel="stylesheet" /> 
+    <meta content="view" name="decorator">
+    <link rel="stylesheet" type="text/css" href="public/css/register.css" />
+    <script src="public/js/register.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+
+<body>
+    </div>
+    </div>
+    <header class="header">
+        <article class="back" onclick="javascript:void(0)goback('-1')"></article>
+        <article>用户注册</article>
+        <a href="javascript:void(0)/h5/home.html">
+            <article class="home"></article>
+        </a>
+    </header>
+    <section class="content">
+        <form action="register" method="post" id="form">
+            <article class="art_wrap">
+                <div class="art_title" id="numberTitle">账号</div>
+                <div class="art_con">
+                    <input value="" type="text" name="name" id="user" class="input1" placeholder="请填写账号" />
+                </div>
+            </article>
+            <article class="art_wrap">
+                <div class="art_title" id="numberTitle">昵称</div>
+                <div class="art_con">
+                    <input value="" type="text" name="nickname" id="nName" class="input1" placeholder="请填写昵称" />
+                </div>
+            </article>
+            <article class="art_wrap">
+                <div class="art_title" id="numberTitle">密　　码</div>
+                <div class="art_con">
+                    <input value="" type="password" name="password1" maxlength="6" id="registerPin" max="6" placeholder="六位数字" class="input1" />
+                </div>
+            </article>
+            <article class="art_wrap">
+                <div class="art_title" id="numberTitle">确认密码</div>
+                <div class="art_con">
+                    <input value="" type="password" name="password2" maxlength="6" id="rePin" placeholder="六位数字" class="input1" />
+                </div>
+            </article>
+            <article class="art_wrap">
+                <div class="art_title" id="numberTitle">手机号码</div>
+                <div class="art_con">
+                    <input value="" type="tel" name="phone" maxlength="11" id="phone" max="11" class="input1" placeholder="输入11位数字" />
+                </div>
+            </article>
+            
+            <!-- ----微信海航页面进入，link是登录后跳转的页面地址--- -->
+            <!-- <input type='hidden' name='link' value='${link}'/> -->
+            <article class="submit_wrap">
+                <input type="button" class="submit" value="下 一 步" onclick="submitForm();" />
+            </article>
+        </form>
+    </section>
+    <footer class="copyright">版权所有&copy;海南航空股份有限公司</footer>
+    <script charset="utf-8" src="node_modules/jquery/dist/jquery.js" type="text/javascript">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+body {
+	min-width: 320px;
+	max-width: 640px;
+	width: 100%;
+	box-sizing: border-box;
+}
+header {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	margin-bottom: 5px;
+}
+header .back {
+	color: #333;
+	font-weight: 100;
+	
+}
+.header_back {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
+.header_submit {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	color: skyblue;
+}
+header img {
+	display: block;
+	vertical-align: middle;
+	margin: 0 auto;
+
+}
+content {
+	width: 100%;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.select {
+	display: block;
+
+}
+.select a {
+	padding-left: 10px;
+	display: block;
+	position: relative
+}
+.select a span {
+	color: #000;
+}
+.select a span:first-child {
+	color: skyblue;
+}
+.select a span:last-child {
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+content form {
+	margin-top: 10px;
+}
+footer {
+	width: 100%;
+	height: 30px;
+	background: rgba(0, 0, 0, 1.0);
+	position: fixed;
+	bottom: 0;
+}
+content.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+content.container  .form-group div{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.col-*-* {
+	padding: 0;
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}

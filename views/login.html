@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta content="text/html, charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta charset="utf-8" />
+    <title>登陆</title>
+    <link href="./public/css/common.css" type="text/css" rel="stylesheet" />
+    <meta content="view" name="decorator">
+    <link rel="stylesheet" type="text/css" href="public/css/login.css" /> 
+    <script src="public/js/login.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+</div>
+</div>
+<header class="header">
+    <article class="back" onclick="javascript:void(0);goback('-1')"></article>
+    <article>用户登录</article>
+    <a href="views/index.html">
+        <article class="home"></article>
+    </a>
+</header>
+<section class="content">
+    <form action="login" method="post" id="form" style="">
+        <article class="art_wrap">
+            <div class="art_title" id="numberTitle">账 号:</div>
+            <div class="art_con">
+                <input id="number" class="input1" value="" name="uname" maxlength="25" placeholder="手机号/qq号" />
+            </div>
+        </article>
+        <article class="art_wrap">
+            <div class="art_title" id="numberTitle">密 码:</div>
+            <div class="art_con">
+                <input class="input1 input2" id="pin" value="" type="password" maxLength="6" name="pwd" placeholder="六位数字" />
+                <div class="zhmm" onclick="#">
+                    忘记密码？
+                </div>
+            </div>
+        </article>
+        <div style="overflow:hidden;">
+            <label for="remember" class="label_check" checked="" style="">
+                <input type="checkbox" checked="checked" value="" id="remember" name="remember" style="margin-left:10px;" />
+                <span class="label_check_txt">记住密码</span>
+            </label>
+        </div>
+        <div class="submit_wrap">
+            <input type="button" class="submit" value="登    录" onclick="submitForm();" />
+        </div>
+    </form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <form action="/h5/home/home_reg.html" method="post" id="form1">
+        <p class="label_check" style="text-align:center;">没有账号,<span style="color:red;" onclick="register.html">立即注册</span></p>
+    </form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</section>
+<footer class="copyright">
+    <center>
+        <div style="font-size:10px">Copyright&copy;<a href="#" target="_blank">
+懒人模板</a> All Rights Reserved (2016-2018) 版权所有</center>
+</footer>
+ <script charset="utf-8" src="node_modules/jquery/dist/jquery.js" type="text/javascript">
+        </script>
+
+</body>
+
+</html>

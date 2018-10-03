@@ -1,0 +1,32 @@
+body > .header a{
+
+}
+#login {
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	height: 52px;
+	color: #fff;
+	background: rgba(0,0,0,0);
+	font-size: 18px;
+	border: none;
+	margin: 0;
+	padding-right: 5px;
+
+}
+#register {
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	transform: translateX(-100%);
+	height: 52px;
+	color: #fff;
+	background: rgba(0,0,0,0);
+	font-size: 18px;
+	border: none;
+	margin: 0;
+	padding-right: 5px;
+
+}
